@@ -5,7 +5,7 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://zhahrawi-dent.github.io/blog/",
-  base: "/blog/",
+  site: "https://zhahrawi-dent.github.io",
+  base: "/blog",
   integrations: [preact()],
 });
